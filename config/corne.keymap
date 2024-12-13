@@ -35,7 +35,7 @@
                         bindings = <
    &trans  &kp ESC &kp LG(S) &kp LA(E) &trans &kp LC(UP)    &kp LG(C) &kp LG(Z)  &kp GRAVE &kp LC(Y) &kp LG(V) &trans
    &trans &kp TAB &kp LG(SPACE) &kp BSPC &kp QMARK &kp LC(DOWN)      &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp LC(W) &trans 
-   &trans &kp LEFT_SHIFT &kp LG(X) &kp UNDER  &kp LESS_THAN &kp GREATER_THAN      &kp LC(C) &kp COLON &trans &trans &kp RIGHT_SHIFT &trans
+   &trans &kp LEFT_SHIFT &kp UNDER &trans &kp LESS_THAN &kp GREATER_THAN      &kp LC(C) &kp COLON &trans &trans &kp RIGHT_SHIFT &trans
                              &kp LCTRL &trans  &kp LC(B)  &trans   &trans  &kp RCTRL
                         >;
                 };
