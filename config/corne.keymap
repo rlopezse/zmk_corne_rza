@@ -26,34 +26,34 @@
 &trans  &kp N1     &kp N2     &kp N3    &kp N4          &kp N5             &kp N6            &kp N7             &kp N8             &kp N9            &kp N0    &trans
 &trans  &kp EXCL   &kp AT     &kp HASH  &kp CARET       &kp PRCNT          &kp AMPS          &kp DLLR           &kp ASTRK          &kp LPAR          &kp RPAR  &trans
 &trans  &kp EQUAL  &kp MINUS  &kp PLUS  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp PIPE  &trans
-                              &trans    &trans          &trans             &kp LC(B)         &mo 3              &trans
+                              &trans    &trans          &kp LEFT_WIN       &kp LC(B)         &mo 3              &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&trans  &kp ESC         &kp LG(S)  &kp LA(B)  &kp LS(LG(R))  &kp LG(T)           &kp LG(C)  &kp LG(Z)  &kp GRAVE           &kp LC(Y)            &kp LG(V)       &trans
+&trans  &kp ESC         &kp LG(S)  &kp LA(E)  &kp LS(LG(R))  &kp LG(T)           &kp LG(C)  &kp LG(Z)  &kp GRAVE           &kp LC(Y)            &kp LG(V)       &trans
 &trans  &kp TAB         &kp FSLH   &kp BSPC   &kp QMARK      &kp LC(DOWN)        &kp LEFT   &kp DOWN   &kp UP              &kp RIGHT            &kp LC(W)       &trans
-&trans  &kp LEFT_SHIFT  &kp UNDER  &trans     &kp LESS_THAN  &kp GREATER_THAN    &kp LC(C)  &kp COLON  &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)  &kp LEFT_SHIFT  &trans
-                                   &trans     &mo 4          &kp LC(SPACE)       &trans     &trans     &trans
+&trans  &kp LEFT_SHIFT  &kp UNDER  &kp LG(W)  &kp LESS_THAN  &kp GREATER_THAN    &kp LC(C)  &kp COLON  &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)  &kp LEFT_SHIFT  &trans
+                                   &trans     &kp LS(G)      &kp LC(SPACE)       &trans     &trans     &trans
             >;
         };
 
         adj_layer {
             bindings = <
-&trans  &trans  &trans          &trans          &kp LC(LG(SPACE))  &trans    &trans            &trans             &trans            &trans           &kp LG(LS(DOT))  &trans
-&trans  &trans  &kp LS(LG(N4))  &kp LS(LG(N5))  &trans             &trans    &trans            &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &trans           &trans
-&trans  &trans  &trans          &trans          &trans             &trans    &kp LC(LS(DOWN))  &kp LC(LS(UP))     &trans            &trans           &trans           &trans
-                                &trans          &trans             &trans    &trans            &trans             &trans
+&trans  &kp LC(X)     &trans          &kp LS(LG(COMMA))  &kp COMMA  &trans    &trans            &trans             &trans            &trans           &kp LG(LS(DOT))  &trans
+&trans  &trans        &kp LS(LG(N4))  &kp LS(LG(N5))     &trans     &trans    &trans            &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &trans           &trans
+&trans  &kp LEFT_WIN  &trans          &trans             &trans     &trans    &kp LC(LS(DOWN))  &kp LC(LS(UP))     &trans            &trans           &trans           &trans
+                                      &trans             &trans     &trans    &trans            &trans             &trans
             >;
         };
 
         common_layer {
             bindings = <
-&kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LS(LG(Z))  &kp LG(N5)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &trans            &trans            &trans            &trans         &trans        &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &trans            &trans            &trans            &trans         &trans        &trans  &trans  &trans  &trans  &trans  &trans
-                                                      &trans            &trans         &trans        &trans  &trans  &trans
+&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)   &kp LG(NUMBER_4)  &kp LG(N5)          &trans         &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(A)         &kp LG(SPACE)     &kp LA(BACKSPACE)  &kp LG(F)         &kp LG(G)           &trans         &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(NUMBER_0)  &kp LG(NUMBER_6)  &kp CAPS           &kp LS(V)         &kp LG(NUMBER_7)    &trans         &trans  &trans  &trans  &trans  &trans
+                                            &trans             &kp LG(NUMBER_8)  &kp LG(NUMBER_9)    &kp LS(LG(G))  &trans  &trans
             >;
         };
     };
