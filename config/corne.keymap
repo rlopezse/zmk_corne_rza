@@ -32,9 +32,9 @@
 
         raise_layer {
             bindings = <
-&trans  &kp ESC         &kp LG(S)  &kp LA(E)  &kp LS(LG(R))  &kp LG(T)           &kp LG(C)  &kp LG(Z)  &kp GRAVE    &kp LC(Y)        &kp LG(V)       &trans
-&trans  &kp TAB         &kp FSLH   &kp BSPC   &kp QMARK      &kp LC(DOWN)        &kp LEFT   &kp DOWN   &kp UP       &kp RIGHT        &kp LC(W)       &trans
-&trans  &kp LEFT_SHIFT  &kp UNDER  &kp LG(W)  &kp LESS_THAN  &kp GREATER_THAN    &kp LC(C)  &kp COLON  &kp LC(TAB)  &kp LC(LS(TAB))  &kp LEFT_SHIFT  &trans
+&trans  &kp ESC         &kp LG(S)  &kp LA(E)  &kp LS(LG(R))  &kp LG(T)           &kp LG(C)  &kp LG(Z)  &kp GRAVE        &kp LC(Y)    &kp LG(V)       &trans
+&trans  &kp TAB         &kp FSLH   &kp BSPC   &kp QMARK      &kp LC(DOWN)        &kp LEFT   &kp DOWN   &kp UP           &kp RIGHT    &kp LC(W)       &trans
+&trans  &kp LEFT_SHIFT  &kp UNDER  &kp LG(W)  &kp LESS_THAN  &kp GREATER_THAN    &kp LC(C)  &kp COLON  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LEFT_SHIFT  &trans
                                    &trans     &kp LS(G)      &kp LC(SPACE)       &trans     &trans     &trans
             >;
         };
