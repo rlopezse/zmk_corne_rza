@@ -34,7 +34,7 @@
             bindings = <
 &trans  &kp ESC         &kp LG(S)  &kp LA(E)  &kp LS(LG(R))  &kp LG(T)           &kp LG(C)  &kp LG(Z)  &kp GRAVE        &kp LC(Y)    &kp LG(V)       &trans
 &trans  &kp TAB         &kp FSLH   &kp BSPC   &kp QMARK      &kp LC(DOWN)        &kp LEFT   &kp DOWN   &kp UP           &kp RIGHT    &kp LC(W)       &trans
-&trans  &kp LEFT_SHIFT  &kp UNDER  &kp LG(W)  &kp LESS_THAN  &kp GREATER_THAN    &kp LC(C)  &kp COLON  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LEFT_SHIFT  &trans
+&trans  &kp LEFT_SHIFT  &kp UNDER  &kp LG(W)  &kp LESS_THAN  &kp GREATER_THAN    &kp F20    &kp COLON  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LEFT_SHIFT  &trans
                                    &trans     &kp LS(G)      &kp LC(SPACE)       &trans     &trans     &trans
             >;
         };
@@ -54,6 +54,15 @@
 &trans  &kp LG(A)         &kp LG(SPACE)     &kp LA(BACKSPACE)  &kp LG(F)         &kp LG(G)           &trans         &trans  &trans  &trans  &trans  &trans
 &trans  &kp LG(NUMBER_0)  &kp LG(NUMBER_6)  &kp CAPS           &kp LS(V)         &kp LG(NUMBER_7)    &trans         &trans  &trans  &trans  &trans  &trans
                                             &trans             &kp LG(NUMBER_8)  &kp LG(NUMBER_9)    &kp LS(LG(G))  &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
