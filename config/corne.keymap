@@ -50,14 +50,23 @@
 
         common_layer {
             bindings = <
-&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)   &kp LG(NUMBER_4)  &kp LG(N5)          &trans         &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(A)         &kp LG(SPACE)     &kp LA(BACKSPACE)  &kp LG(F)         &kp LG(G)           &trans         &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(NUMBER_0)  &kp LG(NUMBER_6)  &kp CAPS           &kp LS(V)         &kp LG(NUMBER_7)    &trans         &trans  &trans  &trans  &trans  &trans
-                                            &trans             &kp LG(NUMBER_8)  &kp LG(NUMBER_9)    &kp LS(LG(G))  &trans  &trans
+&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)   &kp LG(NUMBER_4)  &kp LG(N5)          &trans         &trans         &trans  &trans  &trans  &trans
+&trans  &kp LG(A)         &kp LG(SPACE)     &kp LA(BACKSPACE)  &kp LG(F)         &kp LG(G)           &trans         &trans         &trans  &trans  &trans  &trans
+&trans  &kp LG(NUMBER_0)  &kp LG(NUMBER_6)  &kp CAPS           &kp LS(V)         &kp LG(NUMBER_7)    &trans         &trans         &trans  &trans  &trans  &trans
+                                            &trans             &kp LG(NUMBER_8)  &kp LG(NUMBER_9)    &kp LS(LG(G))  &kp LC(LS(H))  &trans
             >;
         };
 
         layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
