@@ -38,7 +38,7 @@
             bindings = <
 &trans  &kp Q                 &kp W                   &kp E                     &kp R                 &kp T        &kp Y    &kp U                      &kp I                      &kp O                    &kp P                     &trans
 &trans  &hold_tap LEFT_ALT A  &hold_tap LEFT_SHIFT S  &hold_tap LEFT_CONTROL D  &hold_tap LEFT_GUI F  &kp G        &kp H    &hold_tap RIGHT_COMMAND J  &hold_tap RIGHT_CONTROL K  &hold_tap RIGHT_SHIFT L  &hold_tap RIGHT_ALT SEMI  &trans
-&trans  &hold_mo 4 Z          &kp X                   &kp C                     &kp V                 &kp B        &kp N    &kp M                      &kp COMMA                  &kp DOT                  &hold_mo 4 SLASH          &trans
+&trans  &hold_mo 3 Z          &kp X                   &kp C                     &kp V                 &kp B        &kp N    &kp M                      &kp COMMA                  &kp DOT                  &hold_mo 3 SLASH          &trans
                                                       &trans                    &mo 1                 &kp SPACE    &kp RET  &mo 2                      &trans
             >;
         };
@@ -48,34 +48,25 @@
 &trans  &kp N1     &kp N2     &kp N3    &kp N4          &kp N5             &kp N6            &kp N7             &kp N8             &kp N9            &kp N0    &trans
 &trans  &kp EXCL   &kp AT     &kp HASH  &kp CARET       &kp PRCNT          &kp AMPS          &kp DLLR           &kp ASTRK          &kp LPAR          &kp RPAR  &trans
 &trans  &kp EQUAL  &kp MINUS  &kp PLUS  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp PIPE  &trans
-                              &trans    &trans          &trans             &kp LC(B)         &mo 3              &trans
+                              &trans    &trans          &trans             &kp LC(B)         &trans             &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&trans  &kp ESC  &trans     &trans    &trans         &trans              &trans     &trans     &kp GRAVE        &trans       &trans  &trans
-&trans  &kp TAB  &trans     &kp BSPC  &kp QMARK      &trans              &kp LEFT   &kp DOWN   &kp UP           &kp RIGHT    &trans  &trans
-&trans  &trans   &kp UNDER  &trans    &kp LESS_THAN  &kp GREATER_THAN    &kp LC(C)  &kp COLON  &kp LC(LS(TAB))  &kp LC(TAB)  &trans  &trans
-                            &trans    &trans         &kp LC(SPACE)       &trans     &trans     &trans
-            >;
-        };
-
-        adj_layer {
-            bindings = <
-&trans  &trans  &trans          &trans          &trans  &trans    &trans  &trans             &trans            &trans           &trans  &trans
-&trans  &trans  &kp LS(LG(N4))  &kp LS(LG(N5))  &trans  &trans    &trans  &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &trans  &trans
-&trans  &trans  &trans          &trans          &trans  &trans    &trans  &trans             &trans            &trans           &trans  &trans
-                                &trans          &trans  &trans    &trans  &trans             &trans
+&trans  &kp ESC               &trans          &trans    &trans         &trans              &trans     &trans             &kp GRAVE         &trans           &trans  &trans
+&trans  &kp TAB               &trans          &kp BSPC  &kp QMARK      &kp UNDERSCORE      &trans     &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &trans  &trans
+&trans  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &trans    &kp LESS_THAN  &kp GREATER_THAN    &kp LC(C)  &kp COLON          &trans            &trans           &trans  &trans
+                                              &trans    &trans         &kp LC(SPACE)       &trans     &trans             &trans
             >;
         };
 
         common_layer {
             bindings = <
-&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)   &kp LG(NUMBER_4)  &kp LG(N5)    &kp RG(NUMBER_6)  &kp RG(N7)  &kp RG(N8)  &kp RG(N9)  &kp RG(N0)  &trans
-&trans  &trans            &trans            &kp LA(BACKSPACE)  &trans            &trans        &trans            &trans      &trans      &trans      &trans      &trans
-&trans  &trans            &trans            &trans             &trans            &trans        &trans            &trans      &trans      &trans      &trans      &trans
-                                            &trans             &trans            &trans        &trans            &trans      &trans
+&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &kp RG(NUMBER_6)  &kp RG(N7)    &kp RG(N8)      &kp RG(N9)  &kp RG(N0)  &trans
+&trans  &trans            &kp LC(LS(TAB))   &kp LG(W)         &kp LC(TAB)       &trans        &kp LEFT_ARROW    &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT   &trans      &trans
+&trans  &trans            &trans            &trans            &trans            &trans        &trans            &trans        &trans          &trans      &trans      &trans
+                                            &trans            &trans            &trans        &trans            &trans        &trans
             >;
         };
     };
