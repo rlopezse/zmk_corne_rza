@@ -36,10 +36,10 @@
 
         default_layer {
             bindings = <
-&trans  &kp Q                 &kp W                   &kp E                     &kp R                     &kp T        &kp Y    &kp U                      &kp I                      &kp O                    &kp P                     &trans
-&trans  &hold_tap LEFT_ALT A  &hold_tap LEFT_SHIFT S  &hold_tap LEFT_COMMAND D  &hold_tap LEFT_CONTROL F  &kp G        &kp H    &hold_tap RIGHT_CONTROL J  &hold_tap RIGHT_COMMAND K  &hold_tap RIGHT_SHIFT L  &hold_tap RIGHT_ALT SEMI  &trans
-&trans  &kp Z                 &kp X                   &kp C                     &kp V                     &kp B        &kp N    &kp M                      &kp COMMA                  &kp DOT                  &hold_mo 4 SLASH          &trans
-                                                      &trans                    &mo 1                     &kp SPACE    &kp RET  &mo 2                      &trans
+&trans  &kp Q                 &kp W                   &kp E                     &kp R                 &kp T        &kp Y    &kp U                      &kp I                      &kp O                    &kp P                     &trans
+&trans  &hold_tap LEFT_ALT A  &hold_tap LEFT_SHIFT S  &hold_tap LEFT_CONTROL D  &hold_tap LEFT_GUI F  &kp G        &kp H    &hold_tap RIGHT_COMMAND J  &hold_tap RIGHT_CONTROL K  &hold_tap RIGHT_SHIFT L  &hold_tap RIGHT_ALT SEMI  &trans
+&trans  &kp Z                 &kp X                   &kp C                     &kp V                 &kp B        &kp N    &kp M                      &kp COMMA                  &kp DOT                  &hold_mo 4 SLASH          &trans
+                                                      &trans                    &mo 1                 &kp SPACE    &kp RET  &mo 2                      &trans
             >;
         };
 
@@ -54,19 +54,19 @@
 
         raise_layer {
             bindings = <
-&trans  &kp ESC         &trans     &trans    &kp LS(LG(R))  &trans              &trans     &trans     &kp GRAVE        &kp LC(Y)    &trans          &trans
-&trans  &kp TAB         &trans     &kp BSPC  &kp QMARK      &kp LC(DOWN)        &kp LEFT   &kp DOWN   &kp UP           &kp RIGHT    &kp LC(W)       &trans
-&trans  &kp LEFT_SHIFT  &kp UNDER  &trans    &kp LESS_THAN  &kp GREATER_THAN    &kp LC(C)  &kp COLON  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LEFT_SHIFT  &trans
-                                   &trans    &kp LS(G)      &kp LC(SPACE)       &trans     &trans     &trans
+&trans  &kp ESC  &trans     &trans    &kp LS(LG(R))  &trans              &trans     &trans     &kp GRAVE        &trans       &trans  &trans
+&trans  &kp TAB  &trans     &kp BSPC  &kp QMARK      &kp LC(DOWN)        &kp LEFT   &kp DOWN   &kp UP           &kp RIGHT    &trans  &trans
+&trans  &trans   &kp UNDER  &trans    &kp LESS_THAN  &kp GREATER_THAN    &kp LC(C)  &kp COLON  &kp LC(LS(TAB))  &kp LC(TAB)  &trans  &trans
+                            &trans    &kp LS(G)      &kp LC(SPACE)       &trans     &trans     &trans
             >;
         };
 
         adj_layer {
             bindings = <
-&trans  &trans  &trans          &trans          &trans  &trans    &trans            &trans             &trans            &trans           &trans  &trans
-&trans  &trans  &kp LS(LG(N4))  &kp LS(LG(N5))  &trans  &trans    &trans            &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &trans  &trans
-&trans  &trans  &trans          &trans          &trans  &trans    &kp LC(LS(DOWN))  &kp LC(LS(UP))     &trans            &trans           &trans  &trans
-                                &trans          &trans  &trans    &trans            &trans             &trans
+&trans  &trans  &trans          &trans          &trans  &trans    &trans  &trans             &trans            &trans           &trans  &trans
+&trans  &trans  &kp LS(LG(N4))  &kp LS(LG(N5))  &trans  &trans    &trans  &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &trans  &trans
+&trans  &trans  &trans          &trans          &trans  &trans    &trans  &trans             &trans            &trans           &trans  &trans
+                                &trans          &trans  &trans    &trans  &trans             &trans
             >;
         };
 
