@@ -38,7 +38,7 @@
             bindings = <
 &trans  &kp Q                 &kp W                   &kp E                     &kp R                 &kp T        &kp Y    &kp U                      &kp I                      &kp O                    &kp P                     &trans
 &trans  &hold_tap LEFT_ALT A  &hold_tap LEFT_SHIFT S  &hold_tap LEFT_CONTROL D  &hold_tap LEFT_GUI F  &kp G        &kp H    &hold_tap RIGHT_COMMAND J  &hold_tap RIGHT_CONTROL K  &hold_tap RIGHT_SHIFT L  &hold_tap RIGHT_ALT SEMI  &trans
-&trans  &kp Z                 &kp X                   &kp C                     &kp V                 &kp B        &kp N    &kp M                      &kp COMMA                  &kp DOT                  &hold_mo 4 SLASH          &trans
+&trans  &hold_mo 4 Z          &kp X                   &kp C                     &kp V                 &kp B        &kp N    &kp M                      &kp COMMA                  &kp DOT                  &hold_mo 4 SLASH          &trans
                                                       &trans                    &mo 1                 &kp SPACE    &kp RET  &mo 2                      &trans
             >;
         };
@@ -54,10 +54,10 @@
 
         raise_layer {
             bindings = <
-&trans  &kp ESC  &trans     &trans    &kp LS(LG(R))  &trans              &trans     &trans     &kp GRAVE        &trans       &trans  &trans
-&trans  &kp TAB  &trans     &kp BSPC  &kp QMARK      &kp LC(DOWN)        &kp LEFT   &kp DOWN   &kp UP           &kp RIGHT    &trans  &trans
+&trans  &kp ESC  &trans     &trans    &trans         &trans              &trans     &trans     &kp GRAVE        &trans       &trans  &trans
+&trans  &kp TAB  &trans     &kp BSPC  &kp QMARK      &trans              &kp LEFT   &kp DOWN   &kp UP           &kp RIGHT    &trans  &trans
 &trans  &trans   &kp UNDER  &trans    &kp LESS_THAN  &kp GREATER_THAN    &kp LC(C)  &kp COLON  &kp LC(LS(TAB))  &kp LC(TAB)  &trans  &trans
-                            &trans    &kp LS(G)      &kp LC(SPACE)       &trans     &trans     &trans
+                            &trans    &trans         &kp LC(SPACE)       &trans     &trans     &trans
             >;
         };
 
@@ -72,10 +72,10 @@
 
         common_layer {
             bindings = <
-&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)   &kp LG(NUMBER_4)  &kp LG(N5)          &trans         &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &trans            &kp LA(BACKSPACE)  &trans            &trans              &trans         &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(NUMBER_0)  &kp LG(NUMBER_6)  &kp CAPS           &trans            &kp LG(NUMBER_7)    &kp LC(M)      &trans  &trans  &trans  &trans  &trans
-                                            &trans             &kp LG(NUMBER_8)  &kp LG(NUMBER_9)    &kp LS(LG(G))  &trans  &trans
+&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)   &kp LG(NUMBER_4)  &kp LG(N5)    &kp RG(NUMBER_6)  &kp RG(N7)  &kp RG(N8)  &kp RG(N9)  &kp RG(N0)  &trans
+&trans  &trans            &trans            &kp LA(BACKSPACE)  &trans            &trans        &trans            &trans      &trans      &trans      &trans      &trans
+&trans  &trans            &trans            &trans             &trans            &trans        &trans            &trans      &trans      &trans      &trans      &trans
+                                            &trans             &trans            &trans        &trans            &trans      &trans
             >;
         };
     };
