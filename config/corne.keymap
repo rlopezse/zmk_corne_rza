@@ -36,10 +36,10 @@
 
         default_layer {
             bindings = <
-&trans  &kp Q                 &kp W                   &kp E                     &kp R                 &kp T        &kp Y    &kp U                      &kp I                      &kp O                    &kp P                     &trans
-&trans  &hold_tap LEFT_ALT A  &hold_tap LEFT_SHIFT S  &hold_tap LEFT_CONTROL D  &hold_tap LEFT_GUI F  &kp G        &kp H    &hold_tap RIGHT_COMMAND J  &hold_tap RIGHT_CONTROL K  &hold_tap RIGHT_SHIFT L  &hold_tap RIGHT_ALT SEMI  &trans
-&trans  &hold_mo 3 Z          &kp X                   &kp C                     &kp V                 &kp B        &kp N    &kp M                      &kp COMMA                  &kp DOT                  &hold_mo 3 SLASH          &trans
-                                                      &trans                    &mo 1                 &kp SPACE    &kp RET  &mo 2                      &trans
+&trans  &kp Q                 &kp W                     &kp E                     &kp R         &kp T                     &kp Y                    &kp U         &kp I                      &kp O                      &kp P                     &trans
+&trans  &hold_tap LEFT_ALT A  &hold_tap LEFT_CONTROL S  &hold_tap LEFT_COMMAND D  &hold_mo 3 F  &hold_tap LEFT_SHIFT G    &hold_tap RIGHT_SHIFT H  &hold_mo 3 J  &hold_tap RIGHT_COMMAND K  &hold_tap RIGHT_CONTROL L  &hold_tap RIGHT_ALT SEMI  &trans
+&trans  &kp Z                 &kp X                     &kp C                     &kp V         &kp B                     &kp N                    &kp M         &kp COMMA                  &kp DOT                    &kp SLASH                 &trans
+                                                        &trans                    &mo 1         &kp SPACE                 &kp RET                  &mo 2         &trans
             >;
         };
 
@@ -63,10 +63,10 @@
 
         common_layer {
             bindings = <
-&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &kp RG(NUMBER_6)  &kp RG(N7)    &kp RG(N8)      &kp RG(N9)  &kp RG(N0)  &trans
-&trans  &trans            &kp LC(LS(TAB))   &kp LG(W)         &kp LC(TAB)       &trans        &kp LEFT_ARROW    &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT   &trans      &trans
-&trans  &trans            &trans            &trans            &trans            &trans        &trans            &trans        &trans          &trans      &trans      &trans
-                                            &trans            &trans            &trans        &trans            &trans        &trans
+&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &kp RG(NUMBER_6)  &kp RG(N7)      &kp RG(N8)    &kp RG(N9)  &kp RG(N0)  &trans
+&trans  &trans            &kp LC(LS(TAB))   &kp LG(W)         &kp LC(TAB)       &trans        &kp LEFT_ARROW    &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT   &trans      &trans
+&trans  &trans            &trans            &trans            &trans            &trans        &trans            &trans          &trans        &trans      &trans      &trans
+                                            &trans            &trans            &trans        &trans            &trans          &trans
             >;
         };
     };
