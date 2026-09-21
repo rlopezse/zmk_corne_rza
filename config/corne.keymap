@@ -36,10 +36,10 @@
 
         default_layer {
             bindings = <
-&trans  &kp Q                 &kp W                   &kp E                     &kp R                 &kp T        &kp Y    &kp U                      &kp I                      &kp O                    &kp P                     &trans
-&trans  &hold_tap LEFT_ALT A  &hold_tap LEFT_SHIFT S  &hold_tap LEFT_CONTROL D  &hold_tap LEFT_GUI F  &kp G        &kp H    &hold_tap RIGHT_COMMAND J  &hold_tap RIGHT_CONTROL K  &hold_tap RIGHT_SHIFT L  &hold_tap RIGHT_ALT SEMI  &trans
-&trans  &hold_mo 3 Z          &kp X                   &kp C                     &kp V                 &kp B        &kp N    &kp M                      &kp COMMA                  &kp DOT                  &hold_mo 3 SLASH          &trans
-                                                      &trans                    &mo 1                 &kp SPACE    &kp RET  &mo 2                      &trans
+&trans  &kp Q                 &kp W                   &kp E                     &kp R                 &kp T           &kp Y         &kp U                      &kp I                      &kp O                    &kp P                     &trans
+&trans  &hold_tap LEFT_ALT A  &hold_tap LEFT_SHIFT S  &hold_tap LEFT_CONTROL D  &hold_tap LEFT_GUI F  &hold_mo 3 G    &hold_mo 3 H  &hold_tap RIGHT_COMMAND J  &hold_tap RIGHT_CONTROL K  &hold_tap RIGHT_SHIFT L  &hold_tap RIGHT_ALT SEMI  &trans
+&trans  &kp Z                 &kp X                   &kp C                     &kp V                 &kp B           &kp N         &kp M                      &kp COMMA                  &kp DOT                  &kp SLASH                 &trans
+                                                      &trans                    &mo 1                 &kp SPACE       &kp RET       &mo 2                      &trans
             >;
         };
 
