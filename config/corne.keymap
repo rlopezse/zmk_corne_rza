@@ -63,10 +63,10 @@
 
         common_layer {
             bindings = <
-&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &kp RG(NUMBER_6)  &kp RG(N7)      &kp RG(N8)    &kp RG(N9)  &kp RG(N0)  &trans
-&trans  &trans            &kp LC(LS(TAB))   &kp LG(W)         &kp LC(TAB)       &trans        &kp LEFT_ARROW    &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT   &trans      &trans
-&trans  &trans            &trans            &trans            &trans            &trans        &trans            &trans          &trans        &trans      &trans      &trans
-                                            &trans            &trans            &trans        &trans            &trans          &trans
+&trans  &kp LG(NUMBER_6)  &kp LG(N7)       &kp LG(N8)  &trans       &trans    &kp RG(C)         &kp RG(Z)         &kp RG(N9)    &kp RG(N0)  &kp RG(V)         &trans
+&trans  &kp LG(A)         &kp LC(LS(TAB))  &trans      &kp LC(TAB)  &trans    &kp LEFT_ARROW    &kp DOWN_ARROW    &kp UP_ARROW  &kp RIGHT   &kp RG(G)         &trans
+&trans  &trans            &trans           &trans      &trans       &trans    &kp RG(NUMBER_4)  &kp RG(N5)        &trans        &trans      &kp RG(NUMBER_3)  &trans
+                                           &trans      &trans       &trans    &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &trans
             >;
         };
     };
