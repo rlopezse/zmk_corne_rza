@@ -63,10 +63,10 @@
 
         common_layer {
             bindings = <
-&trans  &kp LG(NUMBER_6)      &kp LG(N7)      &kp LG(N8)  &kp LG(NUMBER_4)  &kp LG(N5)         &kp RG(C)       &kp RG(Z)         &kp RG(N9)    &kp RG(N0)  &kp RG(V)         &trans
-&trans  &kp RG(A)             &trans          &kp DELETE  &kp QUESTION      &trans             &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW  &kp RIGHT   &trans            &trans
-&trans  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &trans      &trans            &trans             &trans          &trans            &trans        &trans      &kp RG(NUMBER_3)  &trans
-                                              &trans      &kp RG(NUMBER_1)  &kp LC(LS(TAB))    &kp RC(TAB)     &kp RG(NUMBER_2)  &trans
+&trans  &kp LG(NUMBER_6)      &kp LG(N7)      &kp LG(N8)     &kp LG(NUMBER_4)  &kp LG(N5)          &kp RG(C)         &kp RG(Z)       &kp RG(N9)    &kp RG(N0)  &kp RG(V)         &trans
+&trans  &kp RG(A)             &trans          &kp BACKSPACE  &kp QUESTION      &trans              &kp LEFT_ARROW    &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT   &trans            &trans
+&trans  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &trans         &trans            &trans              &trans            &trans          &trans        &trans      &kp RG(NUMBER_3)  &trans
+                                              &trans         &kp RC(RS(TAB))   &kp LG(NUMBER_1)    &kp RG(NUMBER_2)  &kp RC(TAB)     &trans
             >;
         };
     };
