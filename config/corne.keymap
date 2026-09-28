@@ -54,19 +54,19 @@
 
         raise_layer {
             bindings = <
-&trans  &kp ESC               &trans          &trans    &trans         &trans              &trans     &trans             &kp GRAVE         &trans           &trans  &trans
-&trans  &kp TAB               &trans          &kp BSPC  &kp QMARK      &kp UNDERSCORE      &trans     &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &trans  &trans
-&trans  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &trans    &kp LESS_THAN  &kp GREATER_THAN    &kp LC(C)  &kp COLON          &trans            &trans           &trans  &trans
-                                              &trans    &trans         &kp LC(SPACE)       &trans     &trans             &trans
+&trans  &kp ESC  &trans  &kp RA(E)  &trans         &trans              &trans  &trans             &kp GRAVE         &trans           &trans  &trans
+&trans  &kp TAB  &trans  &kp LC(C)  &kp COLON      &trans              &trans  &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &trans  &trans
+&trans  &trans   &trans  &trans     &kp LESS_THAN  &kp GREATER_THAN    &trans  &trans             &trans            &trans           &trans  &trans
+                         &trans     &trans         &trans              &trans  &trans             &trans
             >;
         };
 
         common_layer {
             bindings = <
-&trans  &kp LG(NUMBER_6)  &kp LG(N7)  &kp LG(N8)  &kp LG(NUMBER_4)  &kp LG(N5)         &kp RG(C)       &kp RG(Z)         &kp RG(N9)    &kp RG(N0)  &kp RG(V)         &trans
-&trans  &kp LG(A)         &trans      &trans      &trans            &trans             &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW  &kp RIGHT   &kp RG(G)         &trans
-&trans  &trans            &trans      &trans      &trans            &trans             &trans          &trans            &trans        &trans      &kp RG(NUMBER_3)  &trans
-                                      &trans      &kp RG(NUMBER_1)  &kp LC(LS(TAB))    &kp RC(TAB)     &kp RG(NUMBER_2)  &trans
+&trans  &kp LG(NUMBER_6)      &kp LG(N7)      &kp LG(N8)  &kp LG(NUMBER_4)  &kp LG(N5)         &kp RG(C)       &kp RG(Z)         &kp RG(N9)    &kp RG(N0)  &kp RG(V)         &trans
+&trans  &kp RG(A)             &trans          &kp DELETE  &kp QUESTION      &trans             &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW  &kp RIGHT   &trans            &trans
+&trans  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &trans      &trans            &trans             &trans          &trans            &trans        &trans      &kp RG(NUMBER_3)  &trans
+                                              &trans      &kp RG(NUMBER_1)  &kp LC(LS(TAB))    &kp RC(TAB)     &kp RG(NUMBER_2)  &trans
             >;
         };
     };
